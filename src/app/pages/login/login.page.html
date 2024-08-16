@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>login</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button color="success" [routerLink]="['/home']">Ir al Home</ion-button>
+  <ion-button color="warning" (click)="irPagina()">Ir a Agregar</ion-button>
+</ion-content>
